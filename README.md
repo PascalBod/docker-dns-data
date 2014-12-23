@@ -1,6 +1,3 @@
-docker-dns-data
-===============
-
 # Description
 This Dockerfile is used to create the configuration container to be used 
 with `docker-dns` image.
