@@ -12,7 +12,7 @@ cd docker-dns-data
 mkdir zones
 ```
 
-Put *bind9* configuration files into `zones` directory. You should put there all required files: `named.conf.local`, `named.conf.options`, etc.
+Put *bind9* configuration files into `zones` directory. You should put there all required files: `named.conf.local`, `named.conf.options`, etc. Those files will be copied to `/etc/bind/` directory by the DNS container build on `docker-dns` image.
 
 Build the image:
 ```
